@@ -1,7 +1,7 @@
 ## Random-Hentai
 
-# Apa Itu Random Hentai?
-- Random Hentai Adalah Sebuah Module Yang Memanfaatkan Website Hentai Untun Memberikan Informasi Hentai
+# Apa Itu Module Hentai?
+- Random Hentai Adalah Sebuah Module Yang Memanfaatkan Website Hentai Untuk Memberikan Informasi Hentai
 ---
 # Apa Tujuan Random Hentai? 
 - Memberikan Layanan Berbasis Online Dan Tidak Akan Memberatkan Bot WhatsApp Anda
@@ -11,7 +11,7 @@
 - Anda Bisa Menginstall Github Atau Module Ini, Tapi Saya Saran Kan Anda Untuk Menginstall Module Saja, Karena Lebih Praktis Dan Mudah Di Gunakan. 
 - Code Untuk Menginstall Module:
 ```bash
-$ npm install random-hentai
+$ npm install selxyz/hentai-scraper
 ```
 - Code Untuk Menginstall Repositori
 ```bash
@@ -20,10 +20,10 @@ $ git clone https://github.com/Selxyz-Dev/random-hentai.git
 ---
 # Bagaimana Cara Memakai Nya? 
 ```js
-const { hentaiSearch1 } = require('hentai-random') 
-//import { hentaiSearch1 } from 'hentai-random';
+const { hentaiSearch } = require('selxyz/hentai-scraper') 
+//import { hentaiSearch } from 'selxyz/hentai-scraper';
 (async () => {
-  const data = await hentaiSearch1('Okaa-san')
+  const data = await hentaiSearch('Okaa-san')
   console.log(data) 
 })() 
 ```
@@ -34,6 +34,6 @@ const { hentaiSearch1 } = require('hentai-random')
 - [`Selxyz`](https://wa.me/6282181938329)
 ---
 
-##License
+## License
 - Project Ini Di Lindungi Oleh License ISC
 ---
